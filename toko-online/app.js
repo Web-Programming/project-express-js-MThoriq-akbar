@@ -22,6 +22,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/bootstarp', express.static(path.join(__dirname,'node_modules/bootstrap/dist')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+var productRouter = require ("./routes/product");
+app.use ("/produk,productRouter");
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

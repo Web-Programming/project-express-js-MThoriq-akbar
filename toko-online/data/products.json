@@ -1,22 +1,122 @@
 [
-  { "id": 1, "name": "Alice Johnson", "email": "alice.johnson@example.com", "age": 28, "city": "New York" },
-  { "id": 2, "name": "Bob Smith", "email": "bob.smith@example.com", "age": 34, "city": "Los Angeles" },
-  { "id": 3, "name": "Charlie Adams", "email": "charlie.adams@example.com", "age": 25, "city": "Chicago" },
-  { "id": 4, "name": "Diana Rose", "email": "diana.rose@example.com", "age": 31, "city": "Houston" },
-  { "id": 5, "name": "Ethan Brooks", "email": "ethan.brooks@example.com", "age": 29, "city": "Phoenix" },
-  { "id": 6, "name": "Fiona Lee", "email": "fiona.lee@example.com", "age": 27, "city": "Philadelphia" },
-  { "id": 7, "name": "George Clark", "email": "george.clark@example.com", "age": 36, "city": "San Antonio" },
-  { "id": 8, "name": "Hannah White", "email": "hannah.white@example.com", "age": 24, "city": "San Diego" },
-  { "id": 9, "name": "Isaac King", "email": "isaac.king@example.com", "age": 30, "city": "Dallas" },
-  { "id": 10, "name": "Julia Scott", "email": "julia.scott@example.com", "age": 26, "city": "San Jose" },
-  { "id": 11, "name": "Kevin Turner", "email": "kevin.turner@example.com", "age": 33, "city": "Austin" },
-  { "id": 12, "name": "Lily Cooper", "email": "lily.cooper@example.com", "age": 22, "city": "Jacksonville" },
-  { "id": 13, "name": "Michael Ward", "email": "michael.ward@example.com", "age": 38, "city": "Fort Worth" },
-  { "id": 14, "name": "Nina Baker", "email": "nina.baker@example.com", "age": 35, "city": "Columbus" },
-  { "id": 15, "name": "Oscar Morgan", "email": "oscar.morgan@example.com", "age": 29, "city": "Charlotte" },
-  { "id": 16, "name": "Paula Reed", "email": "paula.reed@example.com", "age": 27, "city": "San Francisco" },
-  { "id": 17, "name": "Quinn Rogers", "email": "quinn.rogers@example.com", "age": 32, "city": "Indianapolis" },
-  { "id": 18, "name": "Rachel Price", "email": "rachel.price@example.com", "age": 23, "city": "Seattle" },
-  { "id": 19, "name": "Sam Bell", "email": "sam.bell@example.com", "age": 31, "city": "Denver" },
-  { "id": 20, "name": "Tina Flores", "email": "tina.flores@example.com", "age": 28, "city": "Washington" }
+  {
+    "id": "001",
+    "name": "Kopi Arabika",
+    "price": "45000",
+    "description": "Kopi arabika berkualitas tinggi, aroma khas."
+  },
+  {
+    "id": "002",
+    "name": "Teh Hijau Organik",
+    "price": "30000",
+    "description": "Teh hijau organik segar dan menyehatkan."
+  },
+  {
+    "id": "003",
+    "name": "Minyak Zaitun",
+    "price": "120000",
+    "description": "Minyak zaitun murni untuk memasak dan perawatan kulit."
+  },
+  {
+    "id": "004",
+    "name": "Madu Asli",
+    "price": "85000",
+    "description": "Madu asli dari hutan pegunungan, kaya manfaat."
+  },
+  {
+    "id": "005",
+    "name": "Beras Merah Organik",
+    "price": "40000",
+    "description": "Beras merah organik, sehat dan bergizi."
+  },
+  {
+    "id": "006",
+    "name": "Sabun Herbal",
+    "price": "25000",
+    "description": "Sabun herbal alami untuk kulit sensitif."
+  },
+  {
+    "id": "007",
+    "name": "Pasta Gigi Herbal",
+    "price": "20000",
+    "description": "Pasta gigi herbal tanpa fluoride, aman digunakan."
+  },
+  {
+    "id": "008",
+    "name": "Coklat Hitam 70%",
+    "price": "60000",
+    "description": "Coklat hitam 70% kakao, cocok untuk pencinta coklat sehat."
+  },
+  {
+    "id": "009",
+    "name": "Sereal Gandum",
+    "price": "35000",
+    "description": "Sereal gandum utuh, sarapan sehat dan praktis."
+  },
+  {
+    "id": "010",
+    "name": "Selai Kacang",
+    "price": "45000",
+    "description": "Selai kacang alami tanpa tambahan gula."
+  },
+  {
+    "id": "011",
+    "name": "Air Mineral 600ml",
+    "price": "7000",
+    "description": "Air mineral murni, kemasan praktis."
+  },
+  {
+    "id": "012",
+    "name": "Teh Celup Jasmine",
+    "price": "28000",
+    "description": "Teh celup dengan aroma bunga jasmine yang harum."
+  },
+  {
+    "id": "013",
+    "name": "Keripik Singkong",
+    "price": "15000",
+    "description": "Keripik singkong renyah dan gurih."
+  },
+  {
+    "id": "014",
+    "name": "Minuman Jahe",
+    "price": "25000",
+    "description": "Minuman jahe hangat untuk kesehatan dan kehangatan tubuh."
+  },
+  {
+    "id": "015",
+    "name": "Mie Instan Organik",
+    "price": "20000",
+    "description": "Mie instan berbahan organik tanpa pengawet."
+  },
+  {
+    "id": "016",
+    "name": "Kacang Almond",
+    "price": "70000",
+    "description": "Kacang almond berkualitas tinggi dan segar."
+  },
+  {
+    "id": "017",
+    "name": "Yogurt Greek",
+    "price": "50000",
+    "description": "Yogurt Greek alami, kaya protein dan probiotik."
+  },
+  {
+    "id": "018",
+    "name": "Saus Sambal Pedas",
+    "price": "22000",
+    "description": "Saus sambal pedas dengan rasa khas Indonesia."
+  },
+  {
+    "id": "019",
+    "name": "Minyak Kelapa Murni",
+    "price": "110000",
+    "description": "Minyak kelapa murni untuk memasak dan perawatan rambut."
+  },
+  {
+    "id": "020",
+    "name": "Teh Hitam Ceylon",
+    "price": "35000",
+    "description": "Teh hitam Ceylon premium, rasa kuat dan nikmat."
+  }
 ]
